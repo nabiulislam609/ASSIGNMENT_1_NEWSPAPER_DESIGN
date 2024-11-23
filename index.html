@@ -8,6 +8,9 @@
     <Style>
         body {
             font-family: 'Times New Roman', Times, serif;
+            margin-top: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
         #header {
             background-color: #007AFF;
@@ -18,6 +21,18 @@
             background-color: #007AFF;
             text-align: center;
             color: white; 
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #E1E1E1;
+
+        }
+        th {
+            background-color: #007AFF;
+            color: white;
         }
     </Style>
 </head>
@@ -35,5 +50,40 @@
             <p><i class="fa-solid fa-globe"> </i> Top News <i class="fa-solid fa-globe"> </i> Cricket <i class="fa-solid fa-globe"> </i> Football <i class="fa-solid fa-globe"> </i> BPL <i class="fa-solid fa-globe"> </i>IPL <i class="fa-solid fa-globe"> </i> Other </p>
         </div>
      </nav>
+    <!-- Top News And Table Section -->
+     <Section id="top newes">
+        <div>
+            <h2><i class="fa-solid fa-fire-flame-curved"></i> Top News</h2>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th><i class="fa-solid fa-list-check"></i> Category</th>
+                    <th><i class="fa-solid fa-h"></i> Heading</th>
+                    <th><i class="fa-regular fa-calendar-days"></i> Date</th>
+                </tr>
+                <tr>
+                    <td>IPL</td>
+                    <td>Did Mostafiz Playing For Chennai</td>
+                    <td>November 18, 2024</td>
+                </tr>
+                <tr>
+                    <td>BPL</td>
+                    <td>BPL Starts Decenber 30, 2024</td>
+                    <td>November 15, 2024</td>
+                </tr>
+                <tr>
+                    <td>IPL</td>
+                    <td>Banglaseshi Players List In IPL 2015</td>
+                    <td>November 13, 2024</td>
+                </tr>
+                <tr>
+                    <td>Cricket</td>
+                    <td>Did India Play Test Championship Final</td>
+                    <td>November 20, 2024</td>
+                </tr>
+            </table>
+        </div>
+     </Section>
 </body>
 </html>
