@@ -8,6 +8,7 @@
     <Style>
         body {
             font-family: 'Times New Roman', Times, serif;
+            background-color: #E1E1E1;
             margin-top: 50px;
             margin-left: 20px;
             margin-right: 20px;
@@ -22,6 +23,10 @@
             text-align: center;
             color: white; 
         }
+        a {
+            color: white;
+            text-decoration: none;
+        }
         table {
             border-collapse: collapse;
             width: 100%;
@@ -34,23 +39,56 @@
             background-color: #007AFF;
             color: white;
         }
+        #cricket-heading {
+            background-color: #007AFF;
+            color: white; 
+        }
+        #football-heading {
+            background-color: #007AFF;
+            color: white; 
+        }
+        #bpl-heading {
+            background-color: #007AFF;
+            color: white; 
+        }
+        #news-submit {
+            background-color: #007AFF;
+            color: white; 
+        }
+        #how-to-post {
+            background-color: #007AFF;
+            color: white; 
+        }
+        #footer {
+            background-color: #007AFF;
+            color: white; 
+            text-align: center; 
+            padding: 10px;
+        }
     </Style>
 </head>
 <body>
-    <!-- This Is Header Section -->
+    <!--  Header Area -->
     <header id="header">
         <div>
             <h2><i class="fa-regular fa-newspaper"></i> Sports News 24</h2>
             <h4><i>Number One Soprts News In Banglasesh</i></h4>
         </div>
     </header>
-    <!-- This Is Nav Section -->
+    <!--  Nav Area -->
      <nav id="nav">
         <div>
-            <p><i class="fa-solid fa-globe"> </i> Top News <i class="fa-solid fa-globe"> </i> Cricket <i class="fa-solid fa-globe"> </i> Football <i class="fa-solid fa-globe"> </i> BPL <i class="fa-solid fa-globe"> </i>IPL <i class="fa-solid fa-globe"> </i> Other </p>
+            <p>
+                <i class="fa-solid fa-globe"> </i> <a href="#">Top News</a> &nbsp;
+                <i class="fa-solid fa-globe"> </i> <a href="#">Cricket</a> &nbsp;
+                <i class="fa-solid fa-globe"> </i> <a href="#">Football</a> &nbsp;
+                <i class="fa-solid fa-globe"> </i> <a href="#">BPL</a> &nbsp;
+                <i class="fa-solid fa-globe"> </i> <a href="#">IPL</a> &nbsp;
+                <i class="fa-solid fa-globe"> </i> <a href="#"> How To Post</a> 
+            </p>
         </div>
      </nav>
-    <!-- Top News And Table Section -->
+    <!-- Top News And Table Area -->
      <Section id="top newes">
         <div>
             <h2><i class="fa-solid fa-fire-flame-curved"></i> Top News</h2>
@@ -85,5 +123,142 @@
             </table>
         </div>
      </Section>
+    <!--  Articel Area -->
+     <article id="cricket-heading">
+        <div>
+            <h2><i class="fa-solid fa-globe"> </i> Cricket</h2>
+        </div>
+     </article>
+     <!-- Cricket News 1 -->
+     <article id="cricket-news-1">
+        <div>
+            <img src="./Images/india play test championship final.avif" alt="india play test championship final" height="200px" width="200px">
+        </div>
+        <div>
+            <p><b><i class="fa-solid fa-globe"> </i> India Play Test Championship Final</b></p>
+            <p><i class="fa-regular fa-calendar-days"></i> Published: November 18, 2024</p>
+            <details>
+                <summary>Read More......</summary>
+                <p>The dates for the World Test Championship final have been revealed by the ICC on Thursday with India among the teams vying for a spot in the summit clash. The Oval will stage the final from 7 to 11 June with a reserve day in place (12 June).</p>
+            </details>
+        </div>
+     </article>
+     <hr>
+     <!-- Cricket News 2 -->
+     <article id="cricket-news-2">
+        <div>
+            <img src="./Images/IPL Auction 2025 Date.jpeg" alt="IPL Auction 2025 Date" height="200px" width="200px">
+            <p><b><i class="fa-solid fa-globe"> </i> IPL Auction 2025 Date</b></p>
+            <p><i class="fa-regular fa-calendar-days"></i> Published: November 23, 2024</p>
+            <details>
+                <summary>Read More......</summary>
+                <p>Indian Premier League 2025 Mega Auction: Check out the live streaming details for the IPL 2025 auction set to take place in Jeddah on November 24 and 25. The Indian Premier League (IPL) 2025 mega auction will take place on November 24 and 25 in Jeddah, and 577 players are up for signing.</p>
+            </details>
+        </div>
+     </article>
+     <hr>
+     <article id="football-heading">
+        <div>
+            <h2><i class="fa-solid fa-globe"> </i> Football</h2>
+        </div>
+     </article>
+     <!-- Football News -->
+     <article id="football-news">
+        <div>
+            <img src="./Images/Manchester City midfielder Rodri has won the 2024 Men's Ballon d'Or.webp" height="200px" width="200px" alt="Rodri has won the 2024 Men's Ballon d'Or">
+            <p><b><i class="fa-solid fa-globe"> </i> Rodri has won the 2024 Men's Ballon d'Or</b></p>
+            <p><i class="fa-regular fa-calendar-days"></i> Published: Octobor 28, 2024</p>
+            <details>
+                <summary>Read More......</summary>
+                <p>Manchester City midfielder Rodri has won the 2024 Men's Ballon d'Or.
+                Rodri earned the award by playing an integral role for club and country in the 2023/24 season, helping City win a record fourth successive English Premier League title before being named UEFA EURO 2024 Player of the Tournament for his impressive performances as Spain triumphed in Germany.</p>
+            </details>
+        </div>
+     </article>
+     <article id="bpl-heading">
+        <div>
+            <h2><i class="fa-solid fa-globe"> </i> BPL</h2>
+        </div>
+     </article>
+     <!-- Bpl News -->
+     <article id="bpl-news-1">
+        <div>
+            <img src="./Images/Rishad decides to skip BBL for BPL.jpg" height="200px" width="200px" alt="Rishad decides to skip BBL for BPL">
+            <p><b><i class="fa-solid fa-globe"> </i> Rishad decides to skip BBL for BPL</b></p>
+            <p><i class="fa-regular fa-calendar-days"></i> Published: November 22, 2024</p>
+            <details>
+                <summary>Read More......</summary>
+                <p>Bangladesh leg spinner Rishad Hossain will not play in the upcoming Big Bash League for Hobart Hurricanes as he will be busy with Fortune Barishal in the Bangladesh Premier League, the country’s lone franchise-based T20 tournament.</p>
+            </details>
+        </div>
+     </article>
+     <!-- News Submit Area -->
+     <article id="news-submit">
+        <div>
+            <h2><i class="fa-solid fa-globe"> </i> Submit Your News</h2>
+        </div>
+     </article>
+     <!-- Feedback From -->
+     <div>
+        <form>
+            <fieldset>
+                <legend>
+                    <h4>Feedback Form</h4>
+                </legend>
+                <div>
+                    <strong>
+                        <label for="name">Name:</label>
+                    </strong>
+                </div>
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <br>
+                <div>
+                    <strong>  
+                        <label for="email">E-mail:</label>
+                    </strong>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Enter Your E-mail">
+                </div>
+                <br>
+                <div>
+                    <strong>  
+                        <label for="feedback">Feedback:</label>
+                    </strong>
+                </div>
+                <div>
+                    <textarea name="feedback" id="feedback" placeholder="Enter Your Feedback" rows="8"></textarea>
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+     </div>
+    <!-- How To Post Area -->
+     <article id="how-to-post">
+        <div>
+            <h2><i class="fa-solid fa-globe"> </i> How To Post</h2>
+        </div>
+     </article>
+     <!-- Video Area -->
+     <div>
+        <video controls width="100%">
+            <source src="#">
+        </video>
+     </div>
+     <br>
+     <!-- Footer Area -->
+      <Footer id="footer">
+        <div>
+            <p>&copy; 2024 Sports News 24 | All Right Reseverd</p>
+            <p>Follow Us: 
+                <a href="https://www.facebook.com/nabiulislam609/"><i class="fa-brands fa-facebook"></i></a> &nbsp;
+                <a href="https://www.instagram.com/nabiulislam609/"><i class="fa-brands fa-instagram"></i></a> &nbsp;
+                <a href="https://www.linkedin.com/in/nabiulislam609/"><i class="fa-brands fa-linkedin"></i></a>
+            </p>
+        </div>
+      </Footer>
 </body>
 </html>
